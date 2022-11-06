@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend-Project</title>
+    <style>
+        body {background-color: #9b9fb5; max-width: max-content; margin: auto;}
+        h1 {
+            color: #7a6174; 
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+            text-align: center;
+            background-color: #b1b7d1;
+            position:absolute;
+            top:0;
+            left:0;
+            height:5%;
+            width: 100%;
+            margin-top: 0%;
+        }
+        p {color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+        a {
+            color: black; 
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+            height:3%; 
+            background-color: #b1b7d1;
+            position:absolute;
+            bottom:0;
+            left:0;
+            width: 100%;
+        }
+    </style>
+</head>
+<br>
+<br>
+<body>
+    <nav>
+        <h1>PRODUCTS</h1>
+    </nav>
+
+    <main>
+        <div class="content">
+
+            {% block content %}
+            <h2>TEST</h2>
+            {% endblock %}
+        
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.github.com/robertamadge" target="_blank">Github Roberta Madge</a>
+    </footer>
+
+</body>
+</html>
